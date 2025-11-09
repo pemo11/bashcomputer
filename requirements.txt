@@ -1,0 +1,14 @@
+openai
+# The following are needed for the LangGraph version
+langchain
+langchain-openai
+langgraph
+
+# Additional packages for local model deployment on RunPod
+transformers>=4.35.0
+torch>=2.0.0
+langchain-huggingface
+accelerate
+bitsandbytes
+sentencepiece
+protobuf
